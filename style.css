@@ -1,0 +1,44 @@
+
+body {
+    background-color: lightblue;
+    color: hotpink;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cover-heading{
+    margin-top: 40px;
+    font-size: 80px;
+}
+
+#game-start{
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+#countdown {
+    font-size: 26px;
+    color: deeppink
+    
+    (201, 12, 12);
+}
+
+#game-done {
+    font-size: 40px;
+}
+
+.lead2 {
+    font-size: 30px;
+    color:purple;
+}
+
+.quest {
+    font-size: 26px;
+    color:lightseagreen
+    
+    ;
+}
+
+.text-mysize {
+    font-size: 20px;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BootStrap Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+    <!-- My CSS file -->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+   
+   
+</head>
+
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/TRHO_Logo.png" alt="Real Housewives Logo"> 
+      <body class="text-center">
+
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            
+          <!-- First Page with Start Button -->
+                <main role="main" class="inner cover">
+                        <h1 class="cover-heading">Trivia Game!</h1>
+                        <p class="lead btn btn-lg btn-danger" id="game-start">Start</p>
+                        <div class="col-lg-4 col-lg-offset-4 text-center">
+                            <p id="countdown">Time Remaining:<span id="timer"></span></p>
+                        </div>
+                </main>
+                
+                <!-- Trivia Questions Section -->
+                <div class="trivia-ques text-center">
+                    <p class="quest">1. What housewife had a book written about her multiple arrests and 23 engagements?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Danielle Staub
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Bethany Frankel 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Ramona Singer
+                        </label>
+                    </form>
+
+                    <p class="quest">2. Which Housewife has a "toaster oven cookbook"?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Sonja Morgan  
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Caroline Manzo
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Kim Richards 
+                        </label>
+                    </form>
+
+                    <p class="quest">3. Who sings the infamous hit single "Money Can't Buy You Class"</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Countess Luanne  
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Ramona Singer
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Melissa Gorga 
+                        </label>
+                    </form>
+
+                    <p class="quest">4. What is the name of Lisa Vanderpump's dog?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Giggy 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Puffy 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Andy Cohen 
+                        </label>
+                    </form>
+
+                    <p class="quest">5. Which real hosuewife was involved in the OJ Simpson Trial?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Kim Richards  
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Camielle Grammar 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Kyle Richards
+                        </label>
+                    </form>
+
+                    <p class="quest">6. Which Real Housewives franchise is no longer on the air?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Real Housewives of DC 
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Real Housewives of Beverly Hills
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Real Housewives of New Jersey
+                        </label>
+                    </form>
+
+                    <p class="quest">7. Which Real Housewife claims she can talk to the dead</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> None  
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Kyle Richards
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Cathy Wykilie
+                        </label>
+                    </form>
+
+                    <p class="quest">8. Which Real Housewife threw a drink at Eileen?</p>
+                    <form class="question">
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Lisa Rinna    
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="correct"> Brandy Glanville    
+                        </label>
+                        <label class="form-check form-check-inline text-mysize">
+                          <input type="radio" name="optradio" class="optradio" value="wrong"> Taylor Armstrong     
+                        </label>
+                    </form>
+                
+                 
+                    <div>
+                        <p class="lead btn btn-lg btn-danger" id="game-done">Done
+                        </p>
+                    </div>
+                </div>
+
+                 
+                    <div class="results">
+                       
+                            <img src="https://media.giphy.com/media/8MyXAlsP65So0/giphy.gif" alt="Real Housewives Logo"> 
+
+                        <p class="lead2" id="summary">Bravo!</p> 
+                        <p class="lead2" id="correctScore">Correct Answers:</p>
+                        <p class="lead2" id="wrongScore"></p>
+                        <p class="lead2" id="unanswered"></p>
+                    </div>
+                
+        </div>  
+
+        <!-- JQuery & Javascript file Links -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="java.js"></script>
+
+      </body>
